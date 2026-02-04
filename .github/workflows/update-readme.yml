@@ -1,5 +1,8 @@
 name: Update Profile README
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 7 * * *"   # täglich 07:00 UTC
